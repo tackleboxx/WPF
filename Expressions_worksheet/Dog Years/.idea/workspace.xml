@@ -23,19 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.24759285" vertical-offset="0" max-vertical-offset="727">
+            <state line="5" column="24" selection-start="136" selection-end="136" vertical-scroll-proportion="0.099866845" vertical-offset="0" max-vertical-offset="751">
               <folding />
             </state>
           </provider>
@@ -52,8 +43,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -225,16 +216,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+        <state line="5" column="40" selection-start="140" selection-end="140" vertical-scroll-proportion="0.10316369" vertical-offset="0" max-vertical-offset="727">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.24759285" vertical-offset="0" max-vertical-offset="727">
+        <state line="5" column="24" selection-start="136" selection-end="136" vertical-scroll-proportion="0.099866845" vertical-offset="0" max-vertical-offset="751">
           <folding />
         </state>
       </provider>
