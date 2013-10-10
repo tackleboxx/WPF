@@ -14,9 +14,12 @@
  “Sparky is X human years old which is X in dog years.
 */
 
- var sparkysAge = 1;
-var dogYears = 7;
+var humanYears = 1; // defines how a human year to a dog year
+var dogYears = 7; //defines actual dog years to human year
 
-var result = "Sparky is" + sparkysAge + "human years old which is" + dogYears + "in dog years";
+var sparkysAge = humanYears * dogYears; //multiplys human years to dog years to get how hold dog is in human years
 
-console.log(result);
+var result = "Sparky is" + " "  + sparkysAge + " " + "human years old which is" + " " + dogYears + " " + "in dog years";//actual to print
+
+console.log(result);// prints results
+
