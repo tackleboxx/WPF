@@ -6,3 +6,5 @@ var hoursWorked = prompt('How many hours do you work a week?');
 var breaks = prompt('How many breaks do you take?');
 var otherBreaks = prompt('Do you take any other breaks?');
 var actualHours = hoursWorked - breaks + otherBreaks;
+
+console.log(Number(actualHours));
