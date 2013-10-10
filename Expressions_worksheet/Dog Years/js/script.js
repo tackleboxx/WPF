@@ -3,6 +3,6 @@
 var sparkysAge = 1;
 var dogYears = 7;
 
-var result = "Sparky is" + String(sparkysAge) + "human years old which is" * String(dogYears) + "in dog years";
+var result = "Sparky is" + sparkysAge + "human years old which is" + dogYears + "in dog years";
 
 console.log(result);
