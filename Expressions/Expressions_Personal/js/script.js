@@ -7,4 +7,6 @@ var milesSecondYear = prompt('How many miles did you drive in the Second year?')
 var milesThirdYear = prompt('How many miles did you drive in the third year?');// returns miles drivin 3rd year
 var totalMiles = Number(milesFirstYear) + Number(milesSecondYear) + Number(milesThirdYear); //total miles drivin
 
-console.log(Number(totalMiles));
+var average = Number(totalMiles)/3;
+
+console.log("I drive an average of" + " " + Number(average) + " " + "miles per year"); //print log
