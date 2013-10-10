@@ -4,3 +4,7 @@
 
 var width = prompt('What is the width of your roof?');
 var length = prompt('What is the length of your roof?');
+
+var result = width * length;
+
+console.log(result);
