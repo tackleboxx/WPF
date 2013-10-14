@@ -10,5 +10,12 @@
  “The competitor qualifies for the heavyweight division.” Or  “ The competitor needs to gain some weight!”
 
  */
+var competitor = 300; // person in competition
+var competitorWeight = 250; //given var
 
 
+if( competitor < competitorWeight ) {
+    console.log("The competitor qualifies for the heavyweight division");
+}else {
+    console.log("The competitor needs to gain some weight");
+}
