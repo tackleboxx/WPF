@@ -15,3 +15,14 @@
 
  */
 
+var mpg = 30; // miles per gallon
+var gasGauge =  .75; // gas gauge in percent
+var gasTank = 9; // in gallons
+var result = (mpg * gasTank) * gasGauge;
+
+if(result > 200) {
+    console.log("Yes, you can make it without stopping for gas!");
+}else{
+    console.log("You only have" + " " + result + " " + "gallons of gas in your tank, better get gas now while you can!");
+}
+
