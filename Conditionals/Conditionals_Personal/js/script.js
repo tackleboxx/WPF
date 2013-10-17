@@ -4,3 +4,6 @@
 
  */
 
+var budget = 45; // Setting a budget for video game
+var videoGame = 60; // actual video game price
+var payCheck = 200; // money received from paycheck
