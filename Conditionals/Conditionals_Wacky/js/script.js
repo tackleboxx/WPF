@@ -4,3 +4,6 @@
 
  */
 
+var milesDriven = 2500;
+var oilChange = 3000;
+var result = oilChange - milesDriven;
