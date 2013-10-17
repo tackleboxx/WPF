@@ -4,7 +4,7 @@
 
  */
 
-var milesDriven = 3000;
+var milesDriven = 1000;
 var oilChange = 3000;
 
 
