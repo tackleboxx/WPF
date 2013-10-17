@@ -19,4 +19,7 @@ if (actualAge > flyAloneAge ) {
 }
 
 */
+
+// if actual age is greater tha fly age then print you can fly alone
+//otherwise you need an adult
 (actualAge > flyAloneAge) ? console.log("you can fly alone!") : console.log("You need an adult to fly with you");
