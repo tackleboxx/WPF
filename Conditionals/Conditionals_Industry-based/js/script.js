@@ -4,4 +4,5 @@
 
  */
 
-var name = prompt('What is your name?');
+var name = prompt('What is your name?'); // get users name
+var email = prompt('What is your email address?'); // get users email address
