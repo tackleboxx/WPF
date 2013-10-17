@@ -8,8 +8,19 @@
  Given:
  Time of Movie (Assume whole numbers here)
  Age of the customer
+
  Result To Print Out:
  “The ticket price is X”
 
  */
 
+var timeOfMovie = 10;
+var ageOfCustomer = 11;
+var ticketRegular = 12.00;
+var discount = 7.00;
+
+if(ageOfCustomer >= 55 || ageOfCustomer <= 10) {
+    console.log ("The ticket price is" + " " + discount);
+}else {
+    console.log ("The ticket price is" + " " + ticketRegular);
+}
