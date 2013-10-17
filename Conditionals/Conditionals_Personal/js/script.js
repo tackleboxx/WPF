@@ -11,5 +11,5 @@ var payCheck = 200; // money received from paycheck
 if (budget === videoGame || payCheck >= videoGame) { // if budget equals price of video game or paycheck is greater or equal to video game, I get game
     console.log("You can get the game!");// print that I get game
 }else { // otherwise
-    console.log("You need more money!")// print i need more money
+    console.log("You need more money!");// print i need more money
 }
