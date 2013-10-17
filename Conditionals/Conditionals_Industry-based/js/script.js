@@ -10,8 +10,13 @@ var flyAloneAge = 18;
 var actualAge = currentYear - yearBorn;
 actualAge;
 
+/*
+
 if (actualAge > flyAloneAge ) {
-    console.log("you can fly alone!")
+    console.log("you can fly alone!");
 }else {
-    console.log("You need an adult to fly with you")
+    console.log("You need an adult to fly with you");
 }
+
+*/
+(actualAge > flyAloneAge) ? console.log("you can fly alone!") : console.log("You need an adult to fly with you");
