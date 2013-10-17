@@ -1,8 +1,15 @@
 // JavaScript Conditionals_Industry | Robert Dunn | Conditionals Worksheet | 10-14-13
 
-/* Lets make a contact list
+/* Can I travel to the meeting in california alone
 
  */
 
-var name = prompt('What is your name?'); // get users name
-var email = prompt('What is your email address?'); // get users email address
+var yearBorn = prompt('What year was you born?'); // get users date of birth
+var currentYear = prompt('What year is it?'); // get current year
+var flyAloneAge = 18;
+var actualAge = currentYear - yearBorn;
+actualAge;
+
+if (actualAge > flyAloneAge ) {
+    console.log("you can fly alone!")
+}
