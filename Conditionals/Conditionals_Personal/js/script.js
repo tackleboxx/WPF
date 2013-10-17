@@ -7,3 +7,7 @@
 var budget = 45; // Setting a budget for video game
 var videoGame = 60; // actual video game price
 var payCheck = 200; // money received from paycheck
+
+if (budget === videoGame || payCheck >= videoGame) {
+    console.log("You can get the game!");
+}
