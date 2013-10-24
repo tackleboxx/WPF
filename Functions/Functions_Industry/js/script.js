@@ -13,4 +13,7 @@ var sqFoot = width * length;
 
 if(material >= sqFoot || sqFoot === material) {
     console.log("I have enough material to do my roof!");
-}
+}else if(material < sqFoot) {
+    console.log("I may need more material!");
+}else{
+    console.log("I do not have enough material to do my roof!");
