@@ -17,3 +17,4 @@ if(material >= sqFoot || sqFoot === material) {
     console.log("I may need more material!");
 }else{
     console.log("I do not have enough material to do my roof!");
+}
