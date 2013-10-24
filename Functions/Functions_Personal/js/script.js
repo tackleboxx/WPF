@@ -6,3 +6,4 @@
 
 // Calculate my BMI
 
+var height = prompt('How tall are you? (in feet)');
