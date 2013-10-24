@@ -47,6 +47,8 @@ console.log("The circumference of the circle is " + total + " inches!"); // prin
 
  */
 
+// Calculate how many bee stings are needed to kill an animal
+
 var beeStings = 8.666666667;
 var victimsWeight = 50;
 var total = calcBeeStings(beeStings, victimsWeight);
