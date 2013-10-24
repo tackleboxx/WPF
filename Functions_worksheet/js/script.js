@@ -49,12 +49,12 @@ console.log("The circumference of the circle is " + total + " inches!"); // prin
 
 // Calculate how many bee stings are needed to kill an animal
 
-var beeStings = 8.666666667;
-var victimsWeight = 50;
-var total = calcBeeStings(beeStings, victimsWeight);
-function calcBeeStings(b, w){
-    var stingsToKill = (beeStings * victimsWeight);
-    return stingsToKill;
+var beeStings = 8.666666667; // set how many bee stings it takes per pound
+var victimsWeight = 50; // set variable for victims weight
+var total = calcBeeStings(beeStings, victimsWeight); // set variable for total
+function calcBeeStings(b, w){ // started function
+    var stingsToKill = (beeStings * victimsWeight);// set calculation for kill
+    return stingsToKill; // returned calculation
 }
 
-console.log("It takes " + total + " bee stings to kill this animal");
+console.log("It takes " + total + " bee stings to kill this animal");// printed to console
