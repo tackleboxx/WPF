@@ -29,3 +29,7 @@
 
 var radius = 5;
 var pie = 3.14;
+var diameter = 2;
+function calcCircumference(radius, diameter ){
+    var circumference = (radius * diameter) * pie;
+}
