@@ -49,10 +49,10 @@ console.log("The circumference of the circle is " + total + " inches!"); // prin
 
 var beeStings = 8.666666667;
 var victimsWeight = 250;
-
+var total = calcBeeStings(beeStings, victimsWeight);
 function calcBeeStings(b, w){
     var stingsToKill = (beeStings * victimsWeight);
     return stingsToKill;
 }
 
-console.log("It takes " + X + "bee stings to kill this animal");
+console.log("It takes " + total + " bee stings to kill this animal");
