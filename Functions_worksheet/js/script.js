@@ -11,6 +11,26 @@
  Result to print to the console:
  “The circumference of the circle is X”;
 
+
+ */
+
+// calculate the circumference of a circle
+
+var radius = 5; // setting the variable radius
+var pie = 3.14; // setting up variable for pie
+var diameter = 2; // set up the diameter
+
+var total = calcCircumference(radius,diameter); // setting parameters of the function
+function calcCircumference(r, d ){ // started the setting the function
+    var circumference = (radius * diameter) * pie; // set the calculation for circumference
+    return circumference; // returned the value
+}
+console.log("The circumference of the circle is " + total + " inches!"); // printed to the console in inches
+
+//--------------END OF CIRCUMFERENCE----------------
+
+/*
+
  Stung!
 
  It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function
@@ -26,17 +46,3 @@
 
 
  */
-// calculate the circumference of a circle
-
-var radius = 5; // setting the variable radius
-var pie = 3.14; // setting up variable for pie
-var diameter = 2; // set up the diameter
-
-var total = calcCircumference(radius,diameter); // setting parameters of the function
-function calcCircumference(r, d ){ // started the setting the function
-    var circumference = (radius * diameter) * pie; // set the calculation for circumference
-    return circumference; // returned the value
-}
-console.log("The circumference of the circle is " + total + " inches!"); // printed to the console in inches
-
-//--------------END OF CIRCUMFERENCE----------------
