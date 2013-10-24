@@ -54,3 +54,5 @@ function calcBeeStings(b, w){
     var stingsToKill = (beeStings * victimsWeight);
     return stingsToKill;
 }
+
+console.log("It takes " + X + "bee stings to kill this animal");
