@@ -34,3 +34,4 @@ function calcCircumference(radius, diameter ){
     var circumference = (radius * diameter) * pie;
     return circumference;
 }
+console.log(total);
