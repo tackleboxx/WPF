@@ -52,4 +52,5 @@ var victimsWeight = 250;
 
 function calcBeeStings(b, w){
     var stingsToKill = (beeStings * victimsWeight);
+    return stingsToKill;
 }
