@@ -14,3 +14,4 @@ function calcBmi(h, w, b) {
     var bmi = (height * height) /weight;
     return bmi;
 }
+console.log("My BMI is " + total);
