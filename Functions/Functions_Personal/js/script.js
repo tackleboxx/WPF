@@ -4,7 +4,7 @@
 
  */
 
-// Calculate my BMI (body mass index)   
+// Calculate my BMI (body mass index)
 
 var height = prompt('How tall are you? (in inches)');// prompt for height
 var weight = prompt('How much do you weigh? (in pounds)'); // prompt for weight
