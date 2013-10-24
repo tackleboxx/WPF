@@ -36,4 +36,4 @@ function calcCircumference(r, d ){
     var circumference = (radius * diameter) * pie;
     return circumference;
 }
-console.log("The circumference of the circle is " + total + "inches!");
+console.log("The circumference of the circle is " + total + " inches!");
