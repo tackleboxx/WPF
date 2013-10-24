@@ -26,14 +26,15 @@
 
 
  */
+// calculate the circumference of a circle
 
-var radius = 5;
-var pie = 3.14;
-var diameter = 2;
+var radius = 5; // setting the variable radius
+var pie = 3.14; // setting up variable for pie
+var diameter = 2; // set up the diameter
 
-var total = calcCircumference(radius,diameter);
-function calcCircumference(r, d ){
-    var circumference = (radius * diameter) * pie;
-    return circumference;
+var total = calcCircumference(radius,diameter); // setting parameters of the function
+function calcCircumference(r, d ){ // started the setting the function
+    var circumference = (radius * diameter) * pie; // set the calculation for circumference
+    return circumference; // returned the value
 }
-console.log("The circumference of the circle is " + total + " inches!");
+console.log("The circumference of the circle is " + total + " inches!"); // printed to the console in inches
