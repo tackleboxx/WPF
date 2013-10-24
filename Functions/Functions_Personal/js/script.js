@@ -6,13 +6,14 @@
 
 // Calculate my BMI
 
-var height = prompt('How tall are you? (in feet)');
+var height = prompt('How tall are you? (in inches)');
 var weight = prompt('How much do you weigh? (in pounds)');
 var bmiCalc = 703;
-var total = calcBmi(height, weight, bmiCalc);
+var total = calcBmi();
 
 function calcBmi(h, w, b) {
-    var bmi = (height * height) /weight * bmiCalc;
+    var bmi = height * height;
     return bmi;
 }
+
 console.log("My BMI is " + total);
