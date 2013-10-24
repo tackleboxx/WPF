@@ -49,3 +49,7 @@ console.log("The circumference of the circle is " + total + " inches!"); // prin
 
 var beeStings = 8.666666667;
 var victimsWeight = 250;
+
+function calcBeeStings(b, w){
+
+}
