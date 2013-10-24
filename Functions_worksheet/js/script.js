@@ -25,6 +25,7 @@
  “It takes X bee stings to kill this animal.
 
 
-
  */
 
+var radius = 5;
+var pie = 3.14;
