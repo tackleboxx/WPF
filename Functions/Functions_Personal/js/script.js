@@ -9,3 +9,8 @@
 var height = prompt('How tall are you? (in feet)');
 var weight = prompt('How much do you weigh? (in pounds)');
 var bmiCalc = 703;
+
+function calcBmi(h, w, b) {
+    var bmi = (height * height) /weight;
+    return bmi;
+}
