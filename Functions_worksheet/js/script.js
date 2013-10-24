@@ -38,3 +38,5 @@ function calcCircumference(r, d ){ // started the setting the function
     return circumference; // returned the value
 }
 console.log("The circumference of the circle is " + total + " inches!"); // printed to the console in inches
+
+//--------------END OF CIRCUMFERENCE----------------
