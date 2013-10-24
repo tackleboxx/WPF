@@ -1,34 +1,30 @@
-// JavaScript Check the Login | Robert Dunn | Conditionals Worksheet | 10-14-13
+// JavaScript Functions_worksheet | Robert Dunn |  10-24-13
 
-/* Check the Login
+/* Circumference
 
- Make sure the user has the correct username and password. If the username doesn’t match then a specific message for that should be printed to the console. If the password doesn’t match a message should appear for that, etc. Only one error message should appear.
+ Calculate the circumference of a circle.
+
+ Parameter(s) for function:
+ Radius of the circle
+ Return:
+ Circumference of the circle
+ Result to print to the console:
+ “The circumference of the circle is X”;
+
+ Stung!
+
+ It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function
 
  Given:
+ Victim’s weight (in pounds)
+ Parameter(s) for function:
+ Victim’s weight (in pounds)
+ Return:
+ Number of Bee stings
+ Result to print to the console:
+ “It takes X bee stings to kill this animal.
 
- Username entered by user
- Password entered by user
- Correct username
- Correct password
 
- Result To Print Out:
- “Welcome, (place their username here)!”  - if the username and password is correct
- “User not found. Try again.” -if the username does not match
- “Password does not match our records.”  -if the username matches but the password does not
 
  */
 
-var username = prompt('Username'); // username
-var password = prompt('Password'); // password
-var correctUsername = "Danny"; // correct username
-var correctPassword = "Danny"; // correct password
-
-
-if(username === correctUsername && password === correctPassword) { //if the username and password is correct
-    console.log("Welcome," + " " + correctUsername + " " + "!");
-}
-if (username === correctUsername && password != correctPassword) { //if the username matches but the password does not
-    console.log("Password does not match our records.");
-}else if(username != correctUsername) {                             //if the username does not match
-    console.log("User not found. Try again.");
-}
