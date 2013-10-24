@@ -11,6 +11,6 @@ var length = prompt('What is the length of your roof? (in feet)');
 var material = 50;
 var sqFoot = width * length;
 
-if(material >= sqFoot) {
+if(material >= sqFoot || sqFoot === material) {
     console.log("I have enough material to do my roof!");
 }
