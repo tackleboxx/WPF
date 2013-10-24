@@ -7,3 +7,4 @@
 // How many square feet of material will i need for my roof
 
 var width = prompt('What is the width of your roof? (in feet)');
+var length = prompt('What is the length of your roof? (in feet)');
